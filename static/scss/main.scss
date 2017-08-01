@@ -4,7 +4,9 @@
 @import "form-elements";
 @import "buttons";
 
-@import "login";
+@import "header";
+@import "pages/login";
+@import "pages/products";
 
 
 
@@ -46,5 +48,60 @@ ul{
   padding: 0;
 
   list-style: none;
+
+}
+
+
+h2, h3, h5, h6{
+
+  font-weight: 100;
+
+  margin: 0;
+
+}
+
+
+h2{
+
+  color: $grey;
+
+  font-size: 28px;
+
+  line-height: 33px;
+
+  margin-bottom: 20px;
+
+}
+
+h3{
+
+  color: $grey;
+
+  font-size: 11px;
+
+  line-height: 13px;
+
+  margin-bottom: 15px;
+
+}
+
+
+h5{
+
+  color: #4A4A4A;
+
+  font-size: 15px;
+
+  line-height: 18px;
+
+}
+
+h6{
+
+  color: #9B9B9B;
+
+  font-size: 13px;
+
+  line-height: 18px;
 
 }
