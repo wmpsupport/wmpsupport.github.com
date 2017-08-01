@@ -1,0 +1,52 @@
+
+.form-row{
+
+  margin-bottom: 30px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 100%;
+
+  float: left;
+
+
+  label{
+
+    color: $grey;
+
+    font-size: 13px;
+
+    line-height: 16px;
+
+    margin-bottom: 10px;
+
+  }
+
+
+  .form-controller{
+
+    border: 1px solid #E9EFF4;
+
+    border-radius: 4px;
+
+    background-color: #FFFFFF;
+
+    color: $grey;
+
+    padding: 8px 20px 10px 20px;
+
+
+    &:focus{
+
+      border-color: lighten($blue, 40%);
+
+      box-shadow: 0 !important;
+
+      outline: none !important;
+    }
+
+  }
+
+}

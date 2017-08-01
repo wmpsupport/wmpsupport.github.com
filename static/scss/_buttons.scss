@@ -1,0 +1,60 @@
+.button{
+
+  padding: 14px 30px;
+
+  font-size: 13px;
+
+  line-height: 16px;
+
+  text-align: center;
+
+  border: 0;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  transition: all .3s ease-in;
+
+  outline: none !important;
+
+
+  &.is-primary{
+
+    background: $blue;
+
+    color: #fff;
+
+    &:hover{
+
+      background: lighten($blue, 10%);
+
+    }
+
+  }
+
+
+  &.is-danger{
+
+    color: $red;
+
+    border: 1px solid $red;
+
+    &:hover{
+
+      background: $red;
+
+      color: $light-grey;
+
+    }
+
+  }
+
+
+  &.is-big{
+
+    min-width: 240px;
+
+  }
+
+}
