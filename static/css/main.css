@@ -449,7 +449,7 @@
       width: 11px;
       height: 11px;
       content: '';
-      background-image: url("../../img/info-icon.png");
+      background-image: url("../img/info-icon.png");
       background-repeat: no-repeat;
       background-size: contain; }
     .login .info span {
