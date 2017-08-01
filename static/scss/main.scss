@@ -8,7 +8,7 @@
 @import "header";
 @import "pages/login";
 @import "pages/products";
-
+@import "pages/edit";
 
 
 *{
@@ -39,6 +39,8 @@ body{
 a{
 
   color: $grey;
+
+  text-decoration: none;
 
 }
 
@@ -71,6 +73,8 @@ h2{
   line-height: 33px;
 
   margin-bottom: 20px;
+
+  font-weight: 500;
 
 }
 

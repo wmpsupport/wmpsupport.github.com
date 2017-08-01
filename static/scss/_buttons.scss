@@ -18,6 +18,8 @@
 
   outline: none !important;
 
+  font-weight: 100;
+
 
   &.is-primary{
 
@@ -44,7 +46,7 @@
 
       background: $red;
 
-      color: $light-grey;
+      color: #fff;
 
     }
 
@@ -62,7 +64,61 @@
 
   &.is-big{
 
-    min-width: 240px;
+    width: 240px;
+
+  }
+
+
+  &.is-small{
+
+    font-size: 11px;
+
+    padding: 7px 12px;
+  }
+
+}
+
+
+
+.back{
+
+  position: relative;
+
+  color: $blue;
+
+  margin-right: 28px;
+
+  &:before{
+
+    content: "";
+
+    width: 18px;
+
+    height: 8px;
+
+    float: left;
+
+    margin-right: 5px;
+
+    margin-top: 3px;
+
+    background-image: url("../img/back.png");
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    transition: all .2s ease;
+
+  }
+
+  &:hover{
+
+    &:before{
+      transform: translateX(-4px);
+    }
 
   }
 
