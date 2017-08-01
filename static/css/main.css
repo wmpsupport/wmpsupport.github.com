@@ -323,8 +323,27 @@
     .button.is-danger:hover {
       background: #D9534F;
       color: #989898; }
+  .button.is-cancel {
+    background-color: #E9EFF4;
+    color: #989898; }
   .button.is-big {
     min-width: 240px; }
+
+/*
+  FADE
+*/
+.fade-enter {
+  opacity: 0; }
+
+.fade-enter-active {
+  transition: opacity 0.5s ease; }
+
+.fade-leave {
+  /*opacity: 1;*/ }
+
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+  opacity: 0; }
 
 .header {
   width: 100%;

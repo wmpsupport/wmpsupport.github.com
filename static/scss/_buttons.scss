@@ -51,6 +51,15 @@
   }
 
 
+  &.is-cancel{
+
+    background-color: #E9EFF4;
+
+    color: $light-grey;
+
+  }
+
+
   &.is-big{
 
     min-width: 240px;
