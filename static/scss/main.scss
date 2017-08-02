@@ -10,6 +10,7 @@
 @import "pages/products";
 @import "pages/edit";
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
 *{
 
@@ -24,7 +25,7 @@ body{
 
   padding: 0;
 
-  font-family: helvetica;
+  font-family: 'Roboto', sans-serif;
 
   font-size: 13px;
 
