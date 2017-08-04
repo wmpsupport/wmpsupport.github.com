@@ -69,7 +69,8 @@
 
     float: left;
 
-    .content{
+
+    .left{
 
       float: left;
 
@@ -87,8 +88,7 @@
 
     }
 
-
-    .sizes{
+    .right{
 
       float: left;
 
@@ -106,12 +106,15 @@
 
       }
 
+    }
+
+    .sizes{
+
       .is-half{
 
         width: calc((100% * 6 / 12) - 15px);
 
       }
-
 
       // SIZES ITEM
       &-item{
@@ -156,6 +159,29 @@
 
       }
 
+
+    }
+
+
+    .reviews-item{
+
+      float: left;
+
+      width: 100%;
+
+      padding: 10px 15px;
+
+      margin-bottom: 10px;
+
+      border: 1px solid #E9EFF4;
+
+      border-radius: 4px;
+
+      background-color: #FFFFFF;
+
+      .rating-component{
+        width: calc(100% - 60px) !important;
+      }
 
     }
 

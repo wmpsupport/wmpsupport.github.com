@@ -172,6 +172,8 @@
     width: calc(100% * 2 / 12); }
   .is-5of12 {
     width: calc(100% * 5 / 12); }
+  .is-7of12 {
+    width: calc(100% * 7 / 12); }
   .is-8of12 {
     width: calc(100% * 8 / 12); }
   .is-9of12 {
@@ -566,44 +568,54 @@
       transition: all .2s ease; }
 .edit .forms {
   float: left; }
-  .edit .forms .content {
+  .edit .forms .left {
     float: left;
     width: calc(60% - 15px); }
     @media (max-width: 960px) {
-      .edit .forms .content {
+      .edit .forms .left {
         width: 100%; } }
     @media (min-width: 961px) and (max-width: 1024px) {
-      .edit .forms .content {
+      .edit .forms .left {
         width: calc(50% - 15px); } }
-  .edit .forms .sizes {
+  .edit .forms .right {
     float: left;
     width: calc(40% - 15px); }
     @media (max-width: 960px) {
-      .edit .forms .sizes {
+      .edit .forms .right {
         width: 100%; } }
     @media (min-width: 961px) and (max-width: 1024px) {
-      .edit .forms .sizes {
+      .edit .forms .right {
         width: calc(50% - 15px); } }
-    .edit .forms .sizes .is-half {
-      width: calc((100% * 6 / 12) - 15px); }
-    .edit .forms .sizes-item {
-      float: left;
-      width: 100%;
-      padding: 10px 15px;
-      margin-bottom: 10px;
-      border: 1px solid #E9EFF4;
-      border-radius: 4px;
-      background-color: #FFFFFF; }
-      .edit .forms .sizes-item input {
-        font-size: 13px;
-        color: #323C47;
-        border: 1px solid transparent;
-        background: transparent;
-        width: 20%;
-        outline: none !important;
-        transition: all .3s ease; }
-        .edit .forms .sizes-item input:hover {
-          border-color: #99dcff; }
+  .edit .forms .sizes .is-half {
+    width: calc((100% * 6 / 12) - 15px); }
+  .edit .forms .sizes-item {
+    float: left;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #E9EFF4;
+    border-radius: 4px;
+    background-color: #FFFFFF; }
+    .edit .forms .sizes-item input {
+      font-size: 13px;
+      color: #323C47;
+      border: 1px solid transparent;
+      background: transparent;
+      width: 20%;
+      outline: none !important;
+      transition: all .3s ease; }
+      .edit .forms .sizes-item input:hover {
+        border-color: #99dcff; }
+  .edit .forms .reviews-item {
+    float: left;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #E9EFF4;
+    border-radius: 4px;
+    background-color: #FFFFFF; }
+    .edit .forms .reviews-item .rating-component {
+      width: calc(100% - 60px) !important; }
 
 * {
   box-sizing: border-box; }
@@ -652,5 +664,8 @@ h6 {
   color: #9B9B9B;
   font-size: 13px;
   line-height: 18px; }
+
+.sortable-ghost {
+  background: #ccc !important; }
 
 /*# sourceMappingURL=main.css.map */
